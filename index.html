@@ -1,27 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Site em PWA</title>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="favicon" href="images/bola72.png">
     <link rel="manifest" href="manifest.json">
-  
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libs/materialDesignIcons/MaterialDesign-Webfont-master/css/materialdesignicons.css">
+    <title>Central do Esporte</title>
+</head>
+<body>
     <nav class="menu" >
+        <div id="brand">
+            <img src="imagens/logo.png" />
+        </div>
 
         <div id="links">
             <a class="link-menu" href="index.html">Pagina Inicial</a>
+           
         </div>
     </nav>
 
-
     <div class="painel">
-        <h1 class= titulo-painel>Tarefa PW II</h1>
+        <h1 class= titulo-painel>Central do Esporte</h1>
     </div>
-    <script src="script.js"></script>
-  </body>
+
+    <div class="titulo-divisao">
+        <h1>Últimos Videos</h1>
+    </div>
+
+    <div class="flex_videos"> 
+        
+        <div>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/W04vBe9MukA?start=59" title="YouTube video player" frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            NBA - Melhores da Noite
+        </div>
+        <div>
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/yl-aTPBksCw?start=59" title="YouTube video player" frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            Superliga Feminino - Melhores momentos da Final
+        </div>
+        
+    </div>
+
+    <div class="titulo-divisao">
+        <h1>Principais Notícias</h1>
+    </div>
+
+    <div class="flex_container">
+        <div>
+            <p>
+                <strong>Sorteio Das Quartas Na UCL</strong><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora consectetur molestias quia praesentium
+                delectus tempore optio obcaecati rerum cumque, explicabo eveniet dolorum minus labore, accusantium 
+                suscipit facilis quo, vitae perferendis.
+                <br><br>
+                <a href="champions.html"><button>Ler +</button></a>
+            </p>
+            <img src="imagens/champions.webp" alt="champions">
+        </div>
+       
+        <div>
+            <p>
+                <strong>Crise no Barça</strong><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora consectetur molestias quia praesentium
+                delectus tempore optio obcaecati rerum cumque, explicabo eveniet dolorum minus labore, accusantium 
+                suscipit facilis quo, vitae perferendis.
+                <br><br>
+                <a href="barca.html"><button>Ler +</button></a>
+            </p>
+            <img src="imagens/barca.jpg" alt="barcelona">
+        </div>
+    </div><br><br><br>
+
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29688.254914740366!2d-49.87532882074697!3d-21.
+        54560933610883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be0585e524f569%3A0xed6f980d67a60cbd!2sPromiss%C3%A3o%2C%20SP%2C%2016370-000
+        !5e0!3m2!1spt-BR!2sbr!4v1617906215186!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="rodape">
+        <div>
+            <img src="imagens/logo.png" alt="Logo" class="img_rodape">
+        </div>
+        <div>
+            <h4>Mapa do site</h4>
+            <ul>
+                <li>Home</li>
+                <li>Quem somos</li>
+                <li>Novidades</li>
+                <li>Contatos</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Redes sociais</h4>
+            <i class="mdi mdi-facebook"></i>
+            <i class="mdi mdi-whatsapp"></i>
+            <i class="mdi mdi-instagram"></i>
+        </div>
+    </div>
+</body>
 </html>
